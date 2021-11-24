@@ -25,4 +25,4 @@ $(OBJ)/%.o: $(SRC)/%.c
 
 
 clean:
-	$(RM) -r $(OBJ)/* $(BINDIR)/*
+	$(RM) -fr $(OBJ)/* $(BINDIR)/*
